@@ -1,4 +1,6 @@
 const Index = () => {
+  console.log("Running index component!");
+  
   return (
     <div>
       <h1>Our Index Page</h1>
