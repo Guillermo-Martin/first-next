@@ -1,8 +1,12 @@
-const AboutPage = () => {
-  console.log("Running about component!");
+import Navbar from "./../components/Navbar";
 
+const AboutPage = () => {
   return (
-    <h1>This is the About page!</h1>
+    <div>
+      <Navbar />
+      <h1>This is the About page!</h1>
+    </div>
+    
   );
 }
 
