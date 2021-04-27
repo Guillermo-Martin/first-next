@@ -1,11 +1,8 @@
-import Navbar from "./../components/Navbar";
-
 const Index = () => {
   console.log("Running index component!");
 
   return (
     <div>
-      <Navbar />
       <h1>Our Index Page</h1>
     </div>
   );
