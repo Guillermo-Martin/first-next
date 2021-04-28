@@ -11,10 +11,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <h1>Footer</h1>
     </div>
-    
   )
-
-  
 }
 
 // Only uncomment this method if you have blocking data requirements for
